@@ -1,0 +1,20 @@
+include components/mixins
+
+doctype html
+html(lang="uk")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="css/style.css")
+    title Map of treasures
+  body
+    #site 
+      div#coordinates Cursor: X: 0, Y: 0
+      div#treasuresCoordinates treasures: X: 0, Y: 0
+      div#distanceTotreasures Distance to treasures: 0
+      div#money money: 0
+      button#nextLevel(onclick="nextLevelFunction()") >
+    button#findtreasuresButton(onclick="findtreasures()") 
+
+    script(src="js/scripts.js")   

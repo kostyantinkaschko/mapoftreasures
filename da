@@ -1,0 +1,19 @@
+ nav.d-flex.justify-content-between.align-items-center
+            a.logo.d-flex.align-items-center(href="#")
+              img(src="../img/logo.png" alt="тур по морю, морський тур, катання на сьорфінгу")
+              p trips
+            ul.d-flex
+              li
+                a(href="#") ГОловна
+              li
+                a(href="#") послуги
+              li
+                a(href="#") про компанію
+              li
+                a(href="#") Акції
+              li
+                a(href="#") Партнери
+              li
+                a(href="#") відгуки
+              li
+                a(href="#") Контакти
